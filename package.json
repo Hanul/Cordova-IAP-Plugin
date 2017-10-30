@@ -1,0 +1,30 @@
+{
+	"author": {
+		"name": "Hanul"
+	},
+	"bugs": {
+		"url": "https://github.com/Hanul/Cordova-IAP-Plugin/issues"
+	},
+	"cordova": {
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	"description": "Cordova IAP Plugin",
+	"homepage": "https://github.com/Hanul/Cordova-IAP-Plugin",
+	"keywords": [
+		"cordova",
+		"iap",
+		"ecosystem:cordova",
+		"cordova-android",
+		"cordova-ios"
+	],
+	"license": "MIT",
+	"name": "Cordova-IAP-Plugin",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aHanul/Cordova-IAP-Plugin.git"
+	},
+	"version": "0.0.1"
+}

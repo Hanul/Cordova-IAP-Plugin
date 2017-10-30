@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+xmlns="http://www.phonegap.com/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android"
+id="CordovaIAPPlugin"
+version="0.0.1">
+	
+	<name>Cordova IAP Plugin</name>
+	<author>Hanul</author>
+	<license>MIT</license>
+	<repo>https://github.com/Hanul/Cordova-IAP-Plugin.git</repo>
+	<issue>https://github.com/Hanul/Cordova-IAP-Plugin/issues</issue>
+	
+	<js-module src="www/IAP.js" name="IAP">
+		<clobbers target="IAP" />
+	</js-module>
+	
+	<platform name="android">
+		<config-file target="res/xml/config.xml" parent="/*">
+			<feature name="CordovaIAPPlugin">
+				<param name="android-package" value="me.hanul.cordova.CordovaIAPPlugin" />
+			</feature>
+		</config-file>
+		<source-file src="src/android/CordovaIAPPlugin.java" target-dir="src/me/hanul/cordova" />
+	</platform>
+	
+</plugin>
